@@ -1,0 +1,3 @@
+to generate the go files:
+
+protoc --proto_path=/Users/admin/Downloads/protobuf-2.6.1/src/:. --gogo_out=. fs-c.proto
